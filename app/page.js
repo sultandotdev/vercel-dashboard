@@ -526,7 +526,7 @@ const [contentExpanded, setContentExpanded] = React.useState(false)
   <PopoverTrigger
     className="flex justify-center
     rounded-md hover:bg-gray-200 data-[state=open]:bg-gray-200 dark:hover:bg-gray-800
-  data-[state=open]:dark:bg-gray-800"
+  data-[state=open]:dark:bg-gray-800 h-8"
   >
     <CaretSortIcon className="h-8 w-5 text-gray-500" />
   </PopoverTrigger>
